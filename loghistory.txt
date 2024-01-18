@@ -1,0 +1,159 @@
+#I thought the script command would have captured my session after. I was wrong. So instead
+#of using script, I used history and had it save my session to a file. 
+#there is a lot of irrelavent commands which was me playing around and a lot of mistakes so sorry
+#for all of the noise. 
+    1  neofetch
+    2  apt search nvidia-driver
+    3  sudo apt update
+    4  sudo apt install neofetch
+    5  neofetch
+    6  df -h
+    7  git --version
+    8  sudo apt install git
+    9  git --version
+   10  clear
+   11  ls
+   12  cd Documents
+   13  mkdir STC510
+   14  cd STC510
+   15  git clone https://github.com/mjodonnell01/module2basicsbadge.git
+   16  cd module2basicsbadge
+   17  git add README.md
+   18  git init
+   19  git add README.md
+   20  ehco "# module2basicbadge" > README.md
+   21  echo "# module2basicbadge" > README.md
+   22  ls
+   23  push
+   24  git push
+   25  git push -u origin main
+   26  git config --global user.name "Michael O'Donnell"
+   27  git config --global user.email "michaelod9966@gmail.com"
+   28  git confid --global core.autocrlf input
+   29  git config --global core.autocrlf input
+   30  git status
+   31  git add README.md
+   32  git status
+   33  git commit -m "Added a readme file"
+   34  ls
+   35  nano README.md
+   36  git status
+   37  git add README.md
+   38  git status
+   39  git commit -m "Added more to read me"
+   40  git push
+   41  git status
+   42  ls
+   43  cat README.md
+   44  ls
+   45  cd ../
+   46  ls
+   47  rm -r module2basicsbadge
+   48  git clone https://github.com/mjodonnell01/module2basics.git
+   49  ls
+   50  cd module2basics
+   51  ls
+   52  ls -l
+   53  ls -a
+   54  cat README.md
+   55  git config --global user.name "Michael O'Donnell"
+   56  git confid --global user.email "michaelod9966@gmail.com"
+   57  git config --global user.email "michaelod9966@gmail.com"
+   58  git config --global core.autocrlf input
+   59  git status
+   60  nano test.txt
+   61  ls
+   62  git status
+   63  git add test.txt
+   64  git status
+   65  git commit -m "This is a test run before I start the assignment"
+   66  git push
+   67  git status
+   68  git push origin main
+   69  git status
+   70  git push
+   71  git push -u origin main
+   72  cd home
+   73  cd .
+   74  cd ../
+   75  nano GitHubToken.txt
+   76  cd STC510
+   77  ls
+   78  cd module2basics
+   79  git push -u origin main
+   80  cd ../
+   81  ls
+   82  nano GitHubToken.txt
+   83  cd STC510
+   84  ls
+   85  cd module2basics
+   86  ls
+   87  git push
+   88  git push -u origin master
+   89  git push
+   90  git push -u origin module2basics
+   91  git push -u -f origin main
+   92  clear
+   93  git config --global user.name "mjodonnell01"
+   94  git config --global credential.helper cache
+   95* git push https://ghp_L66DWK7hbJQo0hRLI0Bak49O4lRMRu
+   96  cd ../
+   97  ls
+   98  nano GitHubPushCommand.txt
+   99  clear
+  100  cd STC510
+  101  cd module2basics
+  102  ls
+  103  cd .
+  104  cd ..
+  105  ls
+  106  cd ..
+  107  ls
+  108  nano GitHubPushCommand.txt
+  109  cd stc510
+  110  cd STC510
+  111  ls
+  112  rm -r module2basicsbadge
+  113  rmdir module2basicsbadge
+  114  ls
+  115  cd module2basics
+  116  clear
+  117  curl
+  118  sudo apt install curl
+  119  curl -s -L https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0 -o pol.tar.gz
+  120  ls
+  121  mv pol.tar.gz log.tar.gz
+  122  ls
+  123  tar -xvzf log.tar.gz
+  124  ls
+  125  head log.csv
+  126  grep 'education* [A-Z][a-z][0-9]* [A-Z][a-z][0-9]* .txt' log.csv
+  127  grep 'education* [A-Z][a-z]* [A-Z][a-z]* .txt' log.csv
+  128  grep 'education*.txt' log.csv
+  129  grep '*education*.txt' log.csv
+  130  grep 'education*.txt' log.csv
+  131  grep 'education^.txt' log.csv
+  132  grep 'education*.txt' log.csv
+  133  grep 'education.txt' log.csv
+  134  grep 'education' log.csv
+  135  grep -E 'education.*txt' log.csv
+  136  grep -E 'education.txt' log.csv
+  137  grep -E 'education.*txt' log.csv
+  138  grep -E 'education.*txt' log.csv > relevantlogs.txt
+  139  ls
+  140  git status
+  141  git add relevantlogs.txt
+  142  git status
+  143  git commit -m "Adding the relevants logs taken from the log.csv file"
+  144  git push https://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@github.com/mjodonnell01/module2basics.git
+  145  nano relevantlogs.txt
+  146  git status
+  147  git add relevantlogs.txt
+  148  git status
+  149  git commit -m "Updated the relevantlogs.txt file with my name, title and some relevant info"
+  150  git status
+  151  git push https://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@github.com/mjodonnell01/module2basics.git
+  152  script loghistory.txt
+  153  ls
+  154  nano loghistory.txt
+  155  history > loghistory.txt
